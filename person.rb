@@ -9,15 +9,13 @@ class Person
     @id = Random.rand(1..1000)
   end
 
+  def can_use_services?
+    (of_age || @parent_permission)
+  end
+
   private
 
   def of_age?
     @age >= 18
-  end
-
-  public
-
-  def can_use_services?
-    (is_of_age || @parent_permission)
   end
 end
