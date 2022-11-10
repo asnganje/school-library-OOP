@@ -29,7 +29,7 @@ def main
     when '6'
       app.list_rentals
     else
-      puts 'Thank you, See You!'
+      puts 'Thank you, See You Again!'
       exit_button = false
     end
   end
