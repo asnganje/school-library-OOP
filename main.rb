@@ -1,5 +1,6 @@
 require './app'
 
+# rubocop:disable Metrics/CyclomaticComplexity, Metrics/MethodLength
 def main
   app = App.new
   exit_button = true
@@ -34,5 +35,5 @@ def main
     end
   end
 end
-
+# rubocop:enable Metrics/CyclomaticComplexity, Metrics/MethodLength
 main
