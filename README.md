@@ -1,16 +1,20 @@
 # school-library-OOP
 This is an Educational project for the Microverse Module 3 Block 4(Ruby) School library exercise, requirement for the Ruby Module.
 
-Built With
+## Built With
 Ruby
-Pre-requisites
-You need to have Ruby installed on your local machine
 
-Ruby bundler properly set up for installing dependencies.
+## Pre-requisites
 
+- You need to have Ruby installed on your local machine
+- Ruby bundler properly set up for installing dependencies.
+## Setup
 
-Git clone https://github.com/asnganje/school-library-OOP.git 
-
+- Git clone `Git clone https://github.com/asnganje/school-library-OOP.git`
+- cd `school_library-OOP`
+- run `bundle install`
+- run `rubocop .` to check for linters
+- run `ruby person.rb` to run program
 
 ## Authors
 👤 **Abdulrahman Nganje**
